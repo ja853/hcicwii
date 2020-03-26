@@ -1,3 +1,13 @@
+LUCIA
+1. clone this repo, I'd recommend with webstorm as that's what I use, and easy if you've used any IDEA software before
+2. `cd` to the folder you've just opened this project in (should be one above src)
+2.5 Create new branch and push edits to there, don't push stuff directly to master in case it breaks something! 
+    Can change branch in bottom right corner of webstorm
+3. run command `npm install` to install dependencies 
+4. run command `npm start`
+4.1. Open [http://localhost:3000](http://localhost:3000) to view in the browser
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
