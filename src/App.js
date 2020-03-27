@@ -62,12 +62,13 @@ function App() {
               <tr><th id="time">21:00-22:00</th></tr>
               <tr><th id="time">22:00-23:00</th></tr>
             </table>
-            <div className="footer">
-              <h2>Contact</h2>
-              <h2>Main Site</h2>
-            </div>
           </div>
       </div>
+      <div className="footer">
+              <h2 id="footer-tag">Contact</h2>
+              <h2> | </h2>
+              <h2 id="footer-tag">Main Site</h2>
+            </div>
     </div>
   );
 }
