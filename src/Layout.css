@@ -1,0 +1,84 @@
+
+.header {
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.navBar {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: #0013ae;
+}
+
+ul:first-child:before {
+    content: "" !important;
+}
+
+a {
+    color: #0013ae;
+    text-decoration: none;
+}
+
+a:hover {
+    /*background-color: lightgray;*/
+    /*text-decoration: underline;*/
+    color: #ffe733;
+}
+
+.headerLeft {
+    float: left;
+    width: auto;
+    text-align: left;
+
+}
+
+.headerRight {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.hrLine {
+    border: 2px lightgray;
+    background-color: lightgray;
+    height: 3px;
+}
+
+.hrLine:after { /*TODO why doesn't this seem to work?*/
+    padding-bottom: 100px;
+}
+
+.section {
+    align-content: center;
+    text-align: center;
+}
+
+.leftSection {
+    border-color: #222222;
+    float: left;
+    width: auto;
+    text-align: right;
+    padding: 20px;
+}
+.rightSection {
+    border-color: #222222;
+    width: auto;
+    padding: 10px;
+    text-align: left;
+    color: black; /*CHANGES THE FONT COLOUR, DON'T CHANGE*/
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer {
+    border-color: #222222;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    height: 200px; /* only for demonstration, should be removed */
+}

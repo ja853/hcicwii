@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7d0b07b-3c4c-493d-84f4-8ece49a016a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1ZfwO9WYyK0Ev57OpU5ElpQjarf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,6 +32,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/year2/216" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,17 +49,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585243421344</updated>
-      <workItem from="1585243422584" duration="160000" />
+      <workItem from="1585243422584" duration="4631000" />
     </task>
+    <task id="LOCAL-00001" summary="update README.md">
+      <created>1585243597032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585243597032</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="580" y="214" width="800" height="677" key="#JavaScript" timestamp="1585330648711">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="580" y="214" width="800" height="677" key="#JavaScript/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585330648711" />
+    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2" timestamp="1585243596964">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585243596964" />
     <state x="752" y="430" key="Github.ShareDialog" timestamp="1585243518662">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="752" y="430" key="Github.ShareDialog/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585243518662" />
+    <state x="580" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1585243598132">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="580" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585243598132" />
+    <state x="753" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585333222142">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="753" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585333222142" />
   </component>
 </project>
