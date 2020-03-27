@@ -23,7 +23,7 @@ function App() {
               <div className="red-line">
                 hello
               </div>
-              <p id="subheading">We run a number of activities to help you improve your wellbeing. All activities are free but do require booking. Have a look below at what sessions are available for each activity.</p>
+              <p id="subheading">We run a number of activities to help you improve your wellbeing. All activities are free but do require booking. Have a look below at what <b>sessions</b> are <b>available</b> for each activity.</p>
             </div>
             <div className="activities-container">
                 <button type="button">Gardening Sessions</button>
@@ -63,7 +63,7 @@ function App() {
               <tr><th id="time">22:00-23:00</th></tr>
             </table>
             <div className="footer">
-              <h2 id="contact-tag">Contact</h2>
+              <h2>Contact</h2>
               <h2>Main Site</h2>
             </div>
           </div>
