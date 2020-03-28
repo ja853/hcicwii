@@ -37,16 +37,21 @@ function App() {
               <button id="show-all" type="button">Show All</button>
               <button id="my-bookings" type="button">My Bookings</button>
             </div>
+            <div className="calendar-container">
+            <h3 id="prev">&#10094;</h3>
             <table className="Calendar">
               <tr>
+                <td id="year-tag" colspan="8">May 2020</td>
+              </tr>
+              <tr>
                 <th id="hour-tag">Hours</th>
-                <th id="day-tag">Monday</th>
-                <th id="day-tag">Tuesday</th>
-                <th id="day-tag">Wednesday</th>
-                <th id="day-tag">Thursday</th>
-                <th id="day-tag">Friday</th>
-                <th id="day-tag">Saturday</th>
-                <th id="day-tag">Sunday</th>
+                <th id="day-tag">Monday<br/>12</th>
+                <th id="day-tag">Tuesday<br/>13</th>
+                <th id="day-tag">Wednesday<br/>14</th>
+                <th id="day-tag">Thursday<br/>15</th>
+                <th id="day-tag">Friday<br/>16</th>
+                <th id="day-tag">Saturday<br/>17</th>
+                <th id="day-tag">Sunday<br/>18</th>
               </tr>
               <tr><th id="time">7:00-8:00</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
               <tr><th id="time">8:00-9:00</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -65,6 +70,8 @@ function App() {
               <tr><th id="time">21:00-22:00</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
               <tr><th id="time">22:00-23:00</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
             </table>
+            <h3 id="next">&#10095;</h3>
+            </div>
           </div>
       </div>
       <div className="footer">
