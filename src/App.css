@@ -109,37 +109,150 @@ ul li{
 }
 
 button{
-  padding: 14px;
-  font-size: 17px;
+  border: 1px solid rgb(51, 51, 51);
+  padding: 10px;
+  margin-left: 3px;
+  font-size: 15px;
   font-weight: bold;
   color: white;
-  border-radius: 7px;
+  border-radius: 6px;
   background-color: rgb(28, 30, 36);
 }
 
 button:hover{
+  transition: 0.2s;
+}
+
+#button-gs{
   background-color: red;
+}
+
+#button-dw{
+  background-color: rgb(206, 0, 189);
+}
+
+#button-cc{
+  background-color: rgb(1, 44, 175);
+}
+
+#button-tcr{
+  background-color: rgb(240, 216, 1);
+}
+
+#button-cw{
+  background-color: rgb(255, 153, 94);
+}
+
+#button-asg{
+  background-color: green;
+}
+
+#button-ds{
+  background-color:rgb(94, 97, 110);
+}
+
+#show-all, #my-bookings{
+  width: 150px;
+  padding: 2px;
+  margin-top: 30px;
 }
 
 table{
   padding: 10px;
   border-radius: 6px;
-  box-shadow: 1px 1px 20px 15px rgba(51, 51, 51, 0.3);
+  box-shadow: 1px 1px 15px 5px rgba(51, 51, 51, 0.3);
   margin-top: 30px;
   align-self: center;
   width: 80%;
   background-color: white;
   border: 1px solid black;
   border-radius: 6px;
+  border-collapse: collapse;
+  border-bottom: 2px solid rgb(28, 30, 36);
+  border-right: 2px solid rgb(28, 30, 36);
+}
+
+td, th{
+  border-bottom: 1px solid rgba(141, 144, 151, 0.4);
+  border-right: 1px solid rgba(141, 144, 151, 0.4);
+  border-collapse: collapse;
 }
 
 #time{
+  border-radius: 2px;
   padding: 8px;
+  border-left: 2px solid rgb(28, 30, 36);
+  border-right: 2px solid rgb(28, 30, 36);
+  background-color:rgba(194, 212, 189, 0.3) ;
+
 }
 
 #day-tag, #hour-tag{
+  border-left: 2px solid rgb(28, 30, 36);
+  border-right: 2px solid rgb(28, 30, 36);
+  border-top: 2px solid rgb(28, 30, 36);
+  border-bottom: 2px solid rgb(28, 30, 36);
+  background-color:rgba(194, 212, 189, 1) ;
   padding: 12px;
+  width: 12.5%;
 }
+
+#hour-tag{
+  background-color:rgba(194, 212, 189, 1);
+  border-left: 2px solid rgb(28, 30, 36);
+  border-right: 2px solid rgb(28, 30, 36);
+}
+
+#gs{
+  background-color: red;
+  font-weight: bolder;
+  color: white;
+}
+
+#dw{
+  background-color: rgb(206, 0, 189);
+  font-weight: bolder;
+  color: white;
+}
+
+#cc{
+  background-color: rgb(1, 44, 175);
+  font-weight: bolder;
+  color: white;
+}
+
+#tcr{
+  background-color: rgb(240, 216, 1);
+  font-weight: bolder;
+  color: white;
+}
+
+#cw{
+  background-color: rgb(255, 153, 94);
+  font-weight: bolder;
+  color: white;
+}
+
+#asg{
+  background-color: green;
+  font-weight: bolder;
+  color: white;
+}
+
+#ds{
+  background-color: rgb(94, 97, 110);
+  font-weight: bolder;
+  color: white;
+}
+
+#book:hover{
+  background-color: white;
+  font-weight: bolder;
+  border: 2px solid red;
+  transition: 0.2s;
+  color: red;
+}
+
 
 .footer{
   margin-top: 20px;
