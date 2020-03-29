@@ -1,0 +1,134 @@
+button{
+    border: 1px solid rgb(51, 51, 51);
+    padding: 10px;
+    margin-left: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(28, 30, 36);
+}
+
+button:hover{
+    transition: 0.2s;
+}
+
+#button-gs{
+    background-color: red;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    padding: 17px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    border-radius: 7px;
+    margin: 3px;
+    background-color: rgb(28, 30, 36);
+}
+
+input[type="checkbox"]:hover + label[for="gs"]{
+    background: red;
+}
+input[type="checkbox"]:checked + label[for="gs"] {
+    color: #ffffff;
+    font-weight: bold;
+    background: red;
+}
+
+input[type="checkbox"]:hover + label[for="dw"] {
+    background: rgb(206, 0, 189);
+}
+input[type="checkbox"]:checked + label[for="dw"] {
+    color: #ffffff;
+    font-weight: bold;
+    background: rgb(206, 0, 189);
+}
+
+input[type="checkbox"]:hover + label[for="cc"] {
+    background: rgb(1, 44, 175);
+}
+input[type="checkbox"]:checked + label[for="cc"] {
+    color: #ffffff;
+    font-weight: bold;
+    background: rgb(1, 44, 175);
+}
+
+input[type="checkbox"]:hover + label[for="tcr"] {
+    background: rgb(240, 216, 1);
+}
+input[type="checkbox"]:checked + label[for="tcr"] {
+    color: #ffffff;
+    font-weight: bold;
+    background: rgb(240, 216, 1);
+}
+
+input[type="checkbox"]:hover + label[for="cw"] {
+    background: rgb(255, 153, 94)
+}
+input[type="checkbox"]:checked + label[for="cw"] {
+    color: #ffffff;
+    font-weight: bold;
+    background: rgb(255, 153, 94);
+}
+
+input[type="checkbox"]:hover + label[for="asg"] {
+    background: green;
+}
+input[type="checkbox"]:checked + label[for="asg"] {
+    color: #ffffff;
+    font-weight: bold;
+    background: green;
+}
+
+input[type="checkbox"]:hover + label[for="ds"] {
+    background: rgb(94, 97, 110);
+}
+input[type="checkbox"]:checked + label[for="ds"] {
+    color: #ffffff;
+    font-weight: bold;
+    background: rgb(94, 97, 110);
+}
+
+#show-all, #my-bookings{
+    width: 150px;
+    padding: 2px;
+    margin-top: 30px;
+}
+
+#show-all:hover, #my-bookings:hover{
+    width: 150px;
+    padding: 2px;
+    margin-top: 30px;
+    background-color: red;
+}
+
+/*#button-dw{*/
+/*  background-color: rgb(206, 0, 189);*/
+/*}*/
+
+/*#button-cc{*/
+/*  background-color: rgb(1, 44, 175);*/
+/*}*/
+
+/*#button-tcr{*/
+/*  background-color: rgb(240, 216, 1);*/
+/*}*/
+
+/*#button-cw{*/
+/*  background-color: rgb(255, 153, 94);*/
+/*}*/
+
+/*#button-asg{*/
+/*  background-color: green;*/
+/*}*/
+
+/*#button-ds{*/
+/*  background-color:rgb(94, 97, 110);*/
+/*}*/

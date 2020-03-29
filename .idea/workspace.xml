@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7d0b07b-3c4c-493d-84f4-8ece49a016a6" name="Default Changelist" comment="">
+    <list default="true" id="d7d0b07b-3c4c-493d-84f4-8ece49a016a6" name="Default Changelist" comment="updated buttons to change colour when clicked">
+      <change afterPath="$PROJECT_DIR$/src/Book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/book.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/buttons.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +17,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main-page" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1ZfwO9WYyK0Ev57OpU5ElpQjarf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,7 +35,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/year2/216" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,16 +55,54 @@
       <option name="presentableId" value="Default" />
       <updated>1585243421344</updated>
       <workItem from="1585243422584" duration="160000" />
+      <workItem from="1585394349352" duration="14807000" />
+      <workItem from="1585481299407" duration="3866000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated buttons to change colour when clicked" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated buttons to change colour when clicked" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2" timestamp="1585407742338">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585407742338" />
     <state x="752" y="430" key="Github.ShareDialog" timestamp="1585243518662">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="752" y="430" key="Github.ShareDialog/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585243518662" />
+    <state x="228" y="116" width="1495" height="872" key="MergeDialog" timestamp="1585407641661">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="228" y="116" width="1495" height="872" key="MergeDialog/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585407641661" />
+    <state x="690" y="270" width="580" height="564" key="MultipleFileMergeDialog" timestamp="1585407641672">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="690" y="270" width="580" height="564" key="MultipleFileMergeDialog/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585407641672" />
+    <state x="474" y="187" key="SettingsEditor" timestamp="1585407465855">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="474" y="187" key="SettingsEditor/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585407465855" />
+    <state x="606" y="234" width="748" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585483969401">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="606" y="234" width="748" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585483969401" />
+    <state x="753" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585409143035">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="753" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585409143035" />
+    <state x="1920" y="0" width="1280" height="796" maximized="true" key="dock-window-1" timestamp="1585404123810">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1920" y="0" width="1280" height="796" maximized="true" key="dock-window-1/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585404123810" />
+    <state x="1920" y="0" width="1280" height="796" maximized="true" key="dock-window-2" timestamp="1585409143426">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1920" y="0" width="1280" height="796" maximized="true" key="dock-window-2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585409143426" />
   </component>
 </project>

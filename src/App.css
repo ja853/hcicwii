@@ -86,12 +86,11 @@ ul li{
 }
 
 .red-line{
+  border: 2px red;
   background-color: red;
-  color: red;
-  font-size: 5px;
+  height: 5px;
+  width: 30%;
   align-self: center;
-  width: 20%;
-  margin-top: 10px;
 }
 
 #subheading{
@@ -108,60 +107,13 @@ ul li{
   justify-content: space-evenly;
 }
 
-button{
-  border: 1px solid rgb(51, 51, 51);
-  padding: 10px;
-  margin-left: 3px;
-  font-size: 15px;
-  font-weight: bold;
-  color: white;
-  border-radius: 6px;
-  background-color: rgb(28, 30, 36);
+h3 {
+  cursor: pointer;
 }
 
-button:hover{
-  transition: 0.2s;
-}
-
-#button-gs{
-  background-color: red;
-}
-
-#button-dw{
-  background-color: rgb(206, 0, 189);
-}
-
-#button-cc{
-  background-color: rgb(1, 44, 175);
-}
-
-#button-tcr{
-  background-color: rgb(240, 216, 1);
-}
-
-#button-cw{
-  background-color: rgb(255, 153, 94);
-}
-
-#button-asg{
-  background-color: green;
-}
-
-#button-ds{
-  background-color:rgb(94, 97, 110);
-}
-
-#show-all, #my-bookings{
-  width: 150px;
-  padding: 2px;
-  margin-top: 30px;
-}
-
-#show-all:hover, #my-bookings:hover{
-  width: 150px;
-  padding: 2px;
-  margin-top: 30px;
-  background-color: red;
+.first-title{
+  width: 100%;
+  margin-left: 0;
 }
 
 .calendar-container{
@@ -185,7 +137,6 @@ table{
   width: 80%;
   background-color: white;
   border: 1px solid black;
-  border-radius: 6px;
   border-collapse: collapse;
   border-bottom: 5px solid rgb(28, 30, 36);
   border-right: 5px solid rgb(28, 30, 36);
@@ -236,7 +187,7 @@ td, th{
   border-right: 2px solid rgb(28, 30, 36);
 }
 
-#gs{
+/*#gs{
   background-color: red;
   font-weight: bolder;
   color: white;
@@ -276,7 +227,7 @@ td, th{
   background-color: rgb(94, 97, 110);
   font-weight: bolder;
   color: white;
-}
+}*/
 
 #book:hover{
   background-color: white;
@@ -296,6 +247,15 @@ td, th{
   justify-content: center;
   padding: 20px;
   font-size: 16px;
+}
+
+.formattedLink{
+  color: black;
+  text-decoration: none;
+}
+
+.formattedLink:hover{
+  color: red;
 }
 
 h2{
