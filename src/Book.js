@@ -52,7 +52,7 @@ class RegisterForm extends Component {
     }
 
     event.preventDefault();
-    if (valid) { // TODO passwords should most probably be encrypted somehow before here
+    if (valid) {
       window.alert("You are booked into this activity!");
     }
   }
@@ -65,7 +65,8 @@ class RegisterForm extends Component {
           <input type="text" name="firstName" className="Input-box" placeholder="First Name" value={this.state.firstName} onChange={this.handleChange}/> <br/> <br/>
           <input type="text" name="lastName" className="Input-box" placeholder="Last Name" value={this.state.lastName} onChange={this.handleChange}/> <br/> <br/>
           <input type="text" name="username" className="Input-box" placeholder="Bath username" value={this.state.username} onChange={this.handleChange}/> <br/> <br/>
-          <button type="submit" value="Submit" className="Login-button">Book</button>
+          <button type="submit" value="Submit" className="Login-button">Book</button> <br/> <br/>
+          <button className="Login-button"><a className="backLink" href="/">Go Back</a></button>
         </form>
       </div>
     );

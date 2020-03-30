@@ -7,6 +7,7 @@
 }
 
 .Login-button {
+    cursor: pointer;
     background-color: #0013ae;
     height: 50px;
     width: 100px;
@@ -14,4 +15,25 @@
     text-align: center;
     color: white;
     border-radius: .25rem;
+}
+
+.Back-button {
+    cursor: pointer;
+    background-color: #0013ae;
+    height: 50px;
+    width: 100px;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    border-radius: .25rem;
+}
+
+.backLink {
+    color: white;
+    text-decoration: none;
+}
+
+.backLink:hover {
+    color: black;
+    transition: 0.2s;
 }

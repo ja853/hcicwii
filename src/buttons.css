@@ -1,3 +1,13 @@
+:root {
+    --gsColour:  white;
+    --dwColour:  white;
+    --ccColour:  white;
+    --tcrColour: white;
+    --cwColour:  white;
+    --asgColour: white;
+    --dsColour:  white;
+}
+
 button{
     border: 1px solid rgb(51, 51, 51);
     padding: 10px;
@@ -11,14 +21,52 @@ button{
 
 button:hover{
     transition: 0.2s;
-}
-
-#button-gs{
-    background-color: red;
+    color: inherit;
 }
 
 input[type="checkbox"]{
     display: none;
+}
+
+.gsLabel {
+    background-color: var(--gsColour);
+    border: 1px solid black;
+    padding: 5px;
+}
+.dwLabel {
+    background-color: var(--dwColour);
+    border: 1px solid black;
+    padding: 5px;
+}
+.ccLabel {
+    background-color: var(--ccColour);
+    border: 1px solid black;
+    padding: 5px;
+}
+.tcrLabel {
+    background-color: var(--tcrColour);
+    border: 1px solid black;
+    padding: 5px;
+}
+.cwLabel {
+    background-color: var(--cwColour);
+    border: 1px solid black;
+    padding: 5px;
+}
+.asgLabel {
+    background-color: var(--asgColour);
+    border: 1px solid black;
+    padding: 5px;
+}
+.dsLabel {
+    background-color: var(--dsColour);
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.calLink {
+    color: black;
+    text-decoration: none;
 }
 
 label {
@@ -35,6 +83,7 @@ label {
 
 input[type="checkbox"]:hover + label[for="gs"]{
     background: red;
+    transition: 0.1s;
 }
 input[type="checkbox"]:checked + label[for="gs"] {
     color: #ffffff;
@@ -44,6 +93,7 @@ input[type="checkbox"]:checked + label[for="gs"] {
 
 input[type="checkbox"]:hover + label[for="dw"] {
     background: rgb(206, 0, 189);
+    transition: 0.1s;
 }
 input[type="checkbox"]:checked + label[for="dw"] {
     color: #ffffff;
@@ -53,6 +103,7 @@ input[type="checkbox"]:checked + label[for="dw"] {
 
 input[type="checkbox"]:hover + label[for="cc"] {
     background: rgb(1, 44, 175);
+    transition: 0.1s;
 }
 input[type="checkbox"]:checked + label[for="cc"] {
     color: #ffffff;
@@ -62,6 +113,7 @@ input[type="checkbox"]:checked + label[for="cc"] {
 
 input[type="checkbox"]:hover + label[for="tcr"] {
     background: rgb(240, 216, 1);
+    transition: 0.1s;
 }
 input[type="checkbox"]:checked + label[for="tcr"] {
     color: #ffffff;
@@ -70,7 +122,8 @@ input[type="checkbox"]:checked + label[for="tcr"] {
 }
 
 input[type="checkbox"]:hover + label[for="cw"] {
-    background: rgb(255, 153, 94)
+    background: rgb(255, 153, 94);
+    transition: 0.1s;
 }
 input[type="checkbox"]:checked + label[for="cw"] {
     color: #ffffff;
@@ -80,6 +133,7 @@ input[type="checkbox"]:checked + label[for="cw"] {
 
 input[type="checkbox"]:hover + label[for="asg"] {
     background: green;
+    transition: 0.1s;
 }
 input[type="checkbox"]:checked + label[for="asg"] {
     color: #ffffff;
@@ -89,6 +143,7 @@ input[type="checkbox"]:checked + label[for="asg"] {
 
 input[type="checkbox"]:hover + label[for="ds"] {
     background: rgb(94, 97, 110);
+    transition: 0.1s;
 }
 input[type="checkbox"]:checked + label[for="ds"] {
     color: #ffffff;
@@ -108,27 +163,3 @@ input[type="checkbox"]:checked + label[for="ds"] {
     margin-top: 30px;
     background-color: red;
 }
-
-/*#button-dw{*/
-/*  background-color: rgb(206, 0, 189);*/
-/*}*/
-
-/*#button-cc{*/
-/*  background-color: rgb(1, 44, 175);*/
-/*}*/
-
-/*#button-tcr{*/
-/*  background-color: rgb(240, 216, 1);*/
-/*}*/
-
-/*#button-cw{*/
-/*  background-color: rgb(255, 153, 94);*/
-/*}*/
-
-/*#button-asg{*/
-/*  background-color: green;*/
-/*}*/
-
-/*#button-ds{*/
-/*  background-color:rgb(94, 97, 110);*/
-/*}*/

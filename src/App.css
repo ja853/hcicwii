@@ -187,48 +187,6 @@ td, th{
   border-right: 2px solid rgb(28, 30, 36);
 }
 
-/*#gs{
-  background-color: red;
-  font-weight: bolder;
-  color: white;
-}
-
-#dw{
-  background-color: rgb(206, 0, 189);
-  font-weight: bolder;
-  color: white;
-}
-
-#cc{
-  background-color: rgb(1, 44, 175);
-  font-weight: bolder;
-  color: white;
-}
-
-#tcr{
-  background-color: rgb(240, 216, 1);
-  font-weight: bolder;
-  color: white;
-}
-
-#cw{
-  background-color: rgb(255, 153, 94);
-  font-weight: bolder;
-  color: white;
-}
-
-#asg{
-  background-color: green;
-  font-weight: bolder;
-  color: white;
-}
-
-#ds{
-  background-color: rgb(94, 97, 110);
-  font-weight: bolder;
-  color: white;
-}*/
-
 #book:hover{
   background-color: white;
   font-weight: bolder;

@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7d0b07b-3c4c-493d-84f4-8ece49a016a6" name="Default Changelist" comment="updated buttons to change colour when clicked">
-      <change afterPath="$PROJECT_DIR$/src/Book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/book.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/buttons.css" afterDir="false" />
+    <list default="true" id="d7d0b07b-3c4c-493d-84f4-8ece49a016a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/book.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/book.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/buttons.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +54,16 @@
       <updated>1585243421344</updated>
       <workItem from="1585243422584" duration="160000" />
       <workItem from="1585394349352" duration="14807000" />
-      <workItem from="1585481299407" duration="3866000" />
+      <workItem from="1585481299407" duration="19987000" />
     </task>
+    <task id="LOCAL-00001" summary="Add booking form.&#10;Change show activity buttons&#10;In process of changing calendar boxes to buttons">
+      <created>1585485326532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585485326532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,13 +71,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated buttons to change colour when clicked" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated buttons to change colour when clicked" />
+    <MESSAGE value="Add booking form.&#10;Change show activity buttons&#10;In process of changing calendar boxes to buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add booking form.&#10;Change show activity buttons&#10;In process of changing calendar boxes to buttons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2" timestamp="1585407742338">
+    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2" timestamp="1585485326365">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
-    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585407742338" />
+    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585485326365" />
     <state x="752" y="430" key="Github.ShareDialog" timestamp="1585243518662">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
@@ -88,6 +95,10 @@
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="474" y="187" key="SettingsEditor/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585407465855" />
+    <state x="580" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1585485334202">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="580" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585485334202" />
     <state x="606" y="234" width="748" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585483969401">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
@@ -96,13 +107,25 @@
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="753" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585409143035" />
-    <state x="1920" y="0" width="1280" height="796" maximized="true" key="dock-window-1" timestamp="1585404123810">
+    <state x="1920" y="0" width="1280" height="879" key="dock-window-1" timestamp="1585486023691">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
-    <state x="1920" y="0" width="1280" height="796" maximized="true" key="dock-window-1/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585404123810" />
-    <state x="1920" y="0" width="1280" height="796" maximized="true" key="dock-window-2" timestamp="1585409143426">
+    <state x="1920" y="0" width="1280" height="879" key="dock-window-1/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585486023691" />
+    <state x="2084" y="0" width="947" height="879" maximized="true" key="dock-window-2" timestamp="1585578886340">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
-    <state x="1920" y="0" width="1280" height="796" maximized="true" key="dock-window-2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585409143426" />
+    <state x="2084" y="0" width="947" height="879" maximized="true" key="dock-window-2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585578886340" />
+    <state x="1920" y="0" width="947" height="879" maximized="true" key="dock-window-3" timestamp="1585579137033">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1920" y="0" width="947" height="879" maximized="true" key="dock-window-3/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585579137033" />
+    <state x="1978" y="0" width="933" height="639" maximized="true" key="dock-window-4" timestamp="1585581836090">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1978" y="0" width="933" height="639" maximized="true" key="dock-window-4/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585581836090" />
+    <state x="649" y="253" width="672" height="677" key="run.anything.popup" timestamp="1585577684111">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="649" y="253" width="672" height="677" key="run.anything.popup/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585577684111" />
   </component>
 </project>
