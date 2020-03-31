@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7d0b07b-3c4c-493d-84f4-8ece49a016a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MyBookings.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/book.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/book.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/buttons.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
       <updated>1585243421344</updated>
       <workItem from="1585243422584" duration="160000" />
       <workItem from="1585394349352" duration="14807000" />
-      <workItem from="1585481299407" duration="19987000" />
+      <workItem from="1585481299407" duration="27008000" />
     </task>
     <task id="LOCAL-00001" summary="Add booking form.&#10;Change show activity buttons&#10;In process of changing calendar boxes to buttons">
       <created>1585485326532</created>
@@ -63,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585485326532</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add properly working colours&#10;add back button to booking page&#10;cal elements now change colour on category click">
+      <created>1585584905870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585584905870</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,13 +78,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated buttons to change colour when clicked" />
     <MESSAGE value="Add booking form.&#10;Change show activity buttons&#10;In process of changing calendar boxes to buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add booking form.&#10;Change show activity buttons&#10;In process of changing calendar boxes to buttons" />
+    <MESSAGE value="add properly working colours&#10;add back button to booking page&#10;cal elements now change colour on category click" />
+    <option name="LAST_COMMIT_MESSAGE" value="add properly working colours&#10;add back button to booking page&#10;cal elements now change colour on category click" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2" timestamp="1585485326365">
+    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2" timestamp="1585584905817">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
-    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585485326365" />
+    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585584905817" />
     <state x="752" y="430" key="Github.ShareDialog" timestamp="1585243518662">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
@@ -95,10 +102,10 @@
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="474" y="187" key="SettingsEditor/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585407465855" />
-    <state x="580" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1585485334202">
+    <state x="580" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1585584907079">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
-    <state x="580" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585485334202" />
+    <state x="580" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585584907079" />
     <state x="606" y="234" width="748" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585483969401">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
@@ -127,5 +134,9 @@
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="649" y="253" width="672" height="677" key="run.anything.popup/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585577684111" />
+    <state x="648" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1585663218006">
+      <screen x="51" y="27" width="1869" height="1053" />
+    </state>
+    <state x="648" y="257" width="672" height="678" key="search.everywhere.popup/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585663218006" />
   </component>
 </project>

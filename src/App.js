@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import UoBathLogo from './BathLogo.png'
 import {Book} from "./Book";
+import {MyBookings} from './MyBookings'
 
 
 function App() {
@@ -39,6 +40,10 @@ function App() {
 
               <Route path="/book">
                 <Book />
+              </Route>
+
+              <Route path="/myActivities">
+                <MyBookings />
               </Route>
 
             </Switch>
@@ -92,6 +97,18 @@ function DSclicked() {
   bodyStyles.setProperty('--dsColour','rgb(94, 97, 110)');
 }
 
+function ChangeAllClicked(){
+  console.log("fart");
+  let bodyStyles = document.body.style;
+  bodyStyles.setProperty('--gsColour','red');
+  bodyStyles.setProperty('--dwColour','rgb(206, 0, 189)');
+  bodyStyles.setProperty('--ccColour','rgb(1, 44, 175)');
+  bodyStyles.setProperty('--tcrColour','rgb(240, 216, 1)');
+  bodyStyles.setProperty('--cwColour','rgb(255, 153, 94)');
+  bodyStyles.setProperty('--asgColour','green');
+  bodyStyles.setProperty('--dsColour','rgb(94, 97, 110)');
+}
+
 function ActivityButtons(){
   return (
     <div>
@@ -105,9 +122,11 @@ function ActivityButtons(){
       <div><input id="ds" type="checkbox" onClick={DSclicked}/><label htmlFor="ds" >Drop-in Session</label></div>
     </div>
 
-    <div className="filter-container">
-      <button id="show-all" type="button">Show All</button>
-      <button id="my-bookings" type="button">My Bookings</button>
+    <div className="activities-container2" > {/*className="filter-container"*/}
+{/*      <button id="show-all" type="button" onClick={ChangeAllClicked}>Show All</button>
+      <button id="my-bookings" type="button">My Bookings</button>*/}
+      <input id="show-all" type="checkbox"/><label onClick={ChangeAllClicked} className="showAllLabel">Show All2</label>
+      <input id="show-all" type="checkbox" onClick={ChangeAllClicked}/><label className="showAllLabel"><a className="myBookingsLink" href="/myActivities">My Bookings</a></label>
     </div>
     </div>
   )
