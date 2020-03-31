@@ -9,6 +9,7 @@ import {
 import UoBathLogo from './BathLogo.png'
 import {Book} from "./Book";
 import {MyBookings} from './MyBookings'
+import {ViewActivity} from './ViewActivity';
 
 
 function App() {
@@ -44,6 +45,10 @@ function App() {
 
               <Route path="/myActivities">
                 <MyBookings />
+              </Route>
+
+              <Route path="/viewDetails">
+                <ViewActivity />
               </Route>
 
             </Switch>
@@ -125,7 +130,7 @@ function ActivityButtons(){
     <div className="activities-container2" > {/*className="filter-container"*/}
 {/*      <button id="show-all" type="button" onClick={ChangeAllClicked}>Show All</button>
       <button id="my-bookings" type="button">My Bookings</button>*/}
-      <input id="show-all" type="checkbox"/><label onClick={ChangeAllClicked} className="showAllLabel">Show All2</label>
+      <input id="show-all" type="checkbox"/><label onClick={ChangeAllClicked} className="showAllLabel">Show All</label>
       <input id="show-all" type="checkbox" onClick={ChangeAllClicked}/><label className="showAllLabel"><a className="myBookingsLink" href="/myActivities">My Bookings</a></label>
     </div>
     </div>
