@@ -23,9 +23,9 @@ export function ViewActivity() {
 
 function ActivityDetails(){
   return (
-    <div>
-      <p>Content here. can use existing css files</p>
+    <div className="Activity-details">
+      <p id="subheading"><b>Gardening Session</b><br/>Tuesday 13th of May<br/>From 09:00am to 10:00am</p>
+      <button id="delete-button">Delete Booking</button>
     </div>
   )
-
 }

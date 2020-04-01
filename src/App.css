@@ -236,5 +236,21 @@ h2{
 
 } 
 
+.Activity-details{
+  margin-left:33%;
+  width: fit-content;
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#delete-button{
+  background-color: red;
+  border-radius: 1px;
+  padding: 3px;
+  margin-bottom: 20px;
+}
+
+
 
 

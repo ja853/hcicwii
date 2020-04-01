@@ -70,36 +70,50 @@ function App() {
 function GSclicked() {
   let bodyStyles = document.body.style;
   bodyStyles.setProperty('--gsColour','red');
+  bodyStyles.setProperty('--gsBorder','black');
+  bodyStyles.setProperty('--gsFont','black');
 }
 
 function DWclicked() {
   let bodyStyles = document.body.style;
   bodyStyles.setProperty('--dwColour','rgb(206, 0, 189)');
+  bodyStyles.setProperty('--dwBorder','black');
+  bodyStyles.setProperty('--dwFont','black');
 }
 
 function CCclicked() {
   let bodyStyles = document.body.style;
   bodyStyles.setProperty('--ccColour','rgb(1, 44, 175)');
+  bodyStyles.setProperty('--ccBorder','black');
+  bodyStyles.setProperty('--ccFont','black');
 }
 
 function TCRclicked() {
   let bodyStyles = document.body.style;
   bodyStyles.setProperty('--tcrColour','rgb(240, 216, 1)');
+  bodyStyles.setProperty('--tcrBorder','black');
+  bodyStyles.setProperty('--tcrFont','black');
 }
 
 function CWclicked() {
   let bodyStyles = document.body.style;
   bodyStyles.setProperty('--cwColour','rgb(255, 153, 94)');
+  bodyStyles.setProperty('--cwBorder','black');
+  bodyStyles.setProperty('--cwFont','black');
 }
 
 function ASGclicked() {
   let bodyStyles = document.body.style;
   bodyStyles.setProperty('--asgColour','green');
+  bodyStyles.setProperty('--asgBorder','black');
+  bodyStyles.setProperty('--asgFont','black');
 }
 
 function DSclicked() {
   let bodyStyles = document.body.style;
   bodyStyles.setProperty('--dsColour','rgb(94, 97, 110)');
+  bodyStyles.setProperty('--dsBorder','black');
+  bodyStyles.setProperty('--dsFont','black');
 }
 
 function ChangeAllClicked(){
@@ -112,6 +126,13 @@ function ChangeAllClicked(){
   bodyStyles.setProperty('--cwColour','rgb(255, 153, 94)');
   bodyStyles.setProperty('--asgColour','green');
   bodyStyles.setProperty('--dsColour','rgb(94, 97, 110)');
+  bodyStyles.setProperty('--gsBorder','black');
+  bodyStyles.setProperty('--dwBorder','black');
+  bodyStyles.setProperty('--ccBorder','black');
+  bodyStyles.setProperty('--tcrBorder','black');
+  bodyStyles.setProperty('--cwBorder','black');
+  bodyStyles.setProperty('--asgBorder','black');
+  bodyStyles.setProperty('--dsBorder', 'black');
 }
 
 function ActivityButtons(){
@@ -128,10 +149,10 @@ function ActivityButtons(){
     </div>
 
     <div className="activities-container2" > {/*className="filter-container"*/}
-{/*      <button id="show-all" type="button" onClick={ChangeAllClicked}>Show All</button>
+    {/*      <button id="show-all" type="button" onClick={ChangeAllClicked}>Show All</button>
       <button id="my-bookings" type="button">My Bookings</button>*/}
       <input id="show-all" type="checkbox"/><label onClick={ChangeAllClicked} className="showAllLabel">Show All</label>
-      <input id="show-all" type="checkbox" onClick={ChangeAllClicked}/><label className="showAllLabel"><a className="myBookingsLink" href="/myActivities">My Bookings</a></label>
+      <input id="show-all" type="checkbox"/><label onClick={ChangeAllClicked} className="showAllLabel"><a className="myBookingsLink" href="/myActivities">My Bookings</a></label>
     </div>
     </div>
   )
@@ -174,7 +195,7 @@ function Calendar() {
 
         <tr> <th id="time">12:00-13:00</th> <td id="cc"><CalElement cn={"ccLabel"} txt={"Cooking"}/></td> <td id="cw"><CalElement cn={"cwLabel"} txt={"Counselling"}/></td> <td/> <td/> <td/> <td/> <td/> </tr>
 
-          <tr> <th id="time">13:00-14:00</th> <td/> <td/> <td id="tcr"><CalElement cn={"tcrLabel"} txt={"Talk Club"}/></td> <td/> <td/> <td id="ds"><CalElement cn={"dsLabel"} txt={"Drop In"}/></td> <td id="asg"><CalElement cn={"asgLabel"} txt={"Autism"}/></td> </tr>
+        <tr> <th id="time">13:00-14:00</th> <td/> <td/> <td id="tcr"><CalElement cn={"tcrLabel"} txt={"Talk Club"}/></td> <td/> <td/> <td id="ds"><CalElement cn={"dsLabel"} txt={"Drop In"}/></td> <td id="asg"><CalElement cn={"asgLabel"} txt={"Autism"}/></td> </tr>
 
         <tr> <th id="time">14:00-15:00</th> <td/> <td id="cc"><CalElement cn={"ccLabel"} txt={"Cooking"}/></td> <td/> <td id="gs"><CalElement cn={"gsLabel"} txt={"Gardening"}/></td> <td/> <td id="tcr"><CalElement cn={"tcrLabel"} txt={"Talk Club"}/></td> <td/> </tr>
 
@@ -207,7 +228,7 @@ function Home(){
       <div className="second-title">
         <h1 id="second-title">WELLBEING ACTIVITIES</h1>
         <div className="red-line"/>
-        <p id="subheading">We run a number of activities to help you improve your wellbeing. All activities are free but do require booking. <b>Select</b> from the activities below to see what <b>sessions</b> are <b>available</b> for each activity.</p>
+        <p id="subheading">We run a number of activities to help you improve your wellbeing. All activities are free but do require booking. <b>Select</b> from the activities below to see what <b>sessions</b> are <b>available</b> for each activity.<br/><br/><b>Note:</b> The Drop-in Sessions can't be booked.</p>
       </div>
 
       <ActivityButtons/>

@@ -6,6 +6,14 @@
     --cwColour:  white;
     --asgColour: white;
     --dsColour:  white;
+    --gsBorder:  white;
+    --dwBorder:  white;
+    --ccBorder:  white;
+    --tcrBorder: white;
+    --cwBorder:  white;
+    --asgBorder: white;
+    --dsBorder:  white;
+    --gsColourButton: rgb(28, 30, 36);
 }
 
 button{
@@ -14,7 +22,6 @@ button{
     margin-left: 3px;
     font-size: 15px;
     font-weight: bold;
-    color: white;
     border-radius: 6px;
     background-color: rgb(28, 30, 36);
 }
@@ -30,42 +37,42 @@ input[type="checkbox"]{
 
 .gsLabel {
     background-color: var(--gsColour);
-    border: 1px solid black;
+    border: 1px solid var(--gsBorder);
     padding: 5px;
 }
 .dwLabel {
     background-color: var(--dwColour);
-    border: 1px solid black;
+    border: 1px solid var(--dwBorder);
     padding: 5px;
 }
 .ccLabel {
     background-color: var(--ccColour);
-    border: 1px solid black;
+    border: 1px solid var(--ccBorder);
     padding: 5px;
 }
 .tcrLabel {
     background-color: var(--tcrColour);
-    border: 1px solid black;
+    border: 1px solid var(--tcrBorder);
     padding: 5px;
 }
 .cwLabel {
     background-color: var(--cwColour);
-    border: 1px solid black;
+    border: 1px solid var(--cwBorder);
     padding: 5px;
 }
 .asgLabel {
     background-color: var(--asgColour);
-    border: 1px solid black;
+    border: 1px solid var(--asgBorder);
     padding: 5px;
 }
 .dsLabel {
     background-color: var(--dsColour);
-    border: 1px solid black;
+    border: 1px solid var(--dsBorder);
     padding: 5px;
 }
 
 .calLink {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -76,11 +83,16 @@ input[type="checkbox"]{
 
 .showAllLabel {
     width: 100px;
-    font-size: 15px;
+    font-size: 14px;
+    padding: 6px;
     align-content:  center;
     text-align: center;
     align-items: center;
     alignment: center;
+}
+
+.showAllLabel:hover{
+    background-color: red;
 }
 
 label {

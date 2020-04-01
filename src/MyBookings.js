@@ -8,9 +8,9 @@ export function MyBookings() {
   return(
     <div className="App">
       <div className="second-title">
-        <h1 id="second-title">YOUR ACTIVITIES</h1>
+        <h1 id="second-title">YOUR BOOKINGS</h1>
         <div className="red-line"/>
-        <p id="subheading">View the activities you're booked into here.</p>
+        <p id="subheading">Below you'll be able to view all of the activities that you are booked into.<br/><b>Click</b>  on any activity to view <b>details</b>  and/or <b>delete</b> the booking.</p>
       </div>
 
     <MyCalendar/>
@@ -27,6 +27,21 @@ function CalElement(props) {
 }
 
 function MyCalendar() {
+  let bodyStyles = document.body.style;
+      bodyStyles.setProperty('--gsColour','red');
+      bodyStyles.setProperty('--dwColour','rgb(206, 0, 189)');
+      bodyStyles.setProperty('--ccColour','rgb(1, 44, 175)');
+      bodyStyles.setProperty('--tcrColour','rgb(240, 216, 1)');
+      bodyStyles.setProperty('--cwColour','rgb(255, 153, 94)');
+      bodyStyles.setProperty('--asgColour','green');
+      bodyStyles.setProperty('--dsColour','rgb(94, 97, 110)');
+      bodyStyles.setProperty('--gsBorder','black');
+      bodyStyles.setProperty('--dwBorder','black');
+      bodyStyles.setProperty('--ccBorder','black');
+      bodyStyles.setProperty('--tcrBorder','black');
+      bodyStyles.setProperty('--cwBorder','black');
+      bodyStyles.setProperty('--asgBorder','black');
+      bodyStyles.setProperty('--dsBorder', 'black');
   return (
     <div>
       <div className="calendar-container">
