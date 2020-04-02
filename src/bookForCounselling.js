@@ -101,8 +101,8 @@ class RegisterForm extends Component {
           <br/>
           <input type="text" name="subject" className="Input-box" placeholder="Subject of discussion" value={this.state.subject} onChange={this.handleChange}/> <br/> <br/>
           <br/>
-          Slide for recurring booking
-          <LoginButton/>
+          {/*Slide for recurring booking
+          <LoginButton/>*/}
           <br/>
           <br/>
           <button type="submit" value="Submit" className="Login-button">Book</button> <br/> <br/>
@@ -114,15 +114,4 @@ class RegisterForm extends Component {
 
 }
 
-function LoginButton() {
-  return (
-    <div>
-
-      <label className="switch">
-        <input type="checkbox" id="logRegToggle"/>
-        <span className="slider round"/>
-      </label>
-    </div>
-  );
-}
 

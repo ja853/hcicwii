@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7d0b07b-3c4c-493d-84f4-8ece49a016a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bookForCounselling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookForCounselling.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookForCounselling.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
       <updated>1585243421344</updated>
       <workItem from="1585243422584" duration="160000" />
       <workItem from="1585394349352" duration="14807000" />
-      <workItem from="1585481299407" duration="44778000" />
+      <workItem from="1585481299407" duration="46062000" />
     </task>
     <task id="LOCAL-00001" summary="Add booking form.&#10;Change show activity buttons&#10;In process of changing calendar boxes to buttons">
       <created>1585485326532</created>
@@ -83,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585690380327</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update counselling form&#10;add slider for recurring booking">
+      <created>1585836027862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585836027862</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,17 +98,18 @@
     <MESSAGE value="Add booking form.&#10;Change show activity buttons&#10;In process of changing calendar boxes to buttons" />
     <MESSAGE value="add properly working colours&#10;add back button to booking page&#10;cal elements now change colour on category click" />
     <MESSAGE value="add my booking page. need to make buttons stay coloured" />
-    <option name="LAST_COMMIT_MESSAGE" value="add my booking page. need to make buttons stay coloured" />
+    <MESSAGE value="update counselling form&#10;add slider for recurring booking" />
+    <option name="LAST_COMMIT_MESSAGE" value="update counselling form&#10;add slider for recurring booking" />
   </component>
   <component name="WindowStateProjectService">
     <state x="718" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585834934551">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="718" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585834934551" />
-    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2" timestamp="1585690380240">
+    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2" timestamp="1585836027740">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
-    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585690380240" />
+    <state x="550" y="129" width="860" height="846" key="CommitChangelistDialog2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585836027740" />
     <state x="752" y="430" key="Github.ShareDialog" timestamp="1585243518662">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
@@ -121,18 +126,18 @@
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="474" y="187" key="SettingsEditor/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585407465855" />
-    <state x="580" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1585690381726">
+    <state x="580" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2" timestamp="1585836029404">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
-    <state x="580" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585690381726" />
+    <state x="580" y="277" width="800" height="551" key="Vcs.Push.Dialog.v2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585836029404" />
     <state x="606" y="234" width="748" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585483969401">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
     <state x="606" y="234" width="748" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585483969401" />
-    <state x="753" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585830001730">
+    <state x="753" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585850759776">
       <screen x="51" y="27" width="1869" height="1053" />
     </state>
-    <state x="753" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585830001730" />
+    <state x="753" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/51.27.1869.1053/1920.0.1280.1024@51.27.1869.1053" timestamp="1585850759776" />
     <state x="1920" y="0" width="1280" height="879" key="dock-window-1" timestamp="1585486023691">
       <screen x="1920" y="0" width="1280" height="1024" />
     </state>
