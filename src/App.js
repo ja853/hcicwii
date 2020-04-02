@@ -10,6 +10,7 @@ import UoBathLogo from './BathLogo.png'
 import {Book} from "./Book";
 import {MyBookings} from './MyBookings'
 import {ViewActivity} from './ViewActivity';
+import {BookForCounselling} from './bookForCounselling'
 
 
 function App() {
@@ -41,6 +42,10 @@ function App() {
 
               <Route path="/book">
                 <Book />
+              </Route>
+
+              <Route path="/BookForCounselling">
+                <BookForCounselling />
               </Route>
 
               <Route path="/myActivities">
@@ -138,9 +143,12 @@ function ActivityButtons(){
 }
 
 function CalElement(props) {
-  return (
-    <div><label className={props.cn}><a className="calLink" href="/book">{props.txt}</a></label></div>
-  )
+  let counselling = props.txt;
+  if (counselling==="Counselling"){
+    return ( <div><label className={props.cn}><a className="calLink" href="/BookForCounselling">{props.txt}</a></label></div> )
+  }else {
+    return ( <div><label className={props.cn}><a className="calLink" href="/book">{props.txt}</a></label></div> )
+  }
 }
 
 function Calendar() {
@@ -174,7 +182,7 @@ function Calendar() {
 
         <tr> <th id="time">12:00-13:00</th> <td id="cc"><CalElement cn={"ccLabel"} txt={"Cooking"}/></td> <td id="cw"><CalElement cn={"cwLabel"} txt={"Counselling"}/></td> <td/> <td/> <td/> <td/> <td/> </tr>
 
-          <tr> <th id="time">13:00-14:00</th> <td/> <td/> <td id="tcr"><CalElement cn={"tcrLabel"} txt={"Talk Club"}/></td> <td/> <td/> <td id="ds"><CalElement cn={"dsLabel"} txt={"Drop In"}/></td> <td id="asg"><CalElement cn={"asgLabel"} txt={"Autism"}/></td> </tr>
+        <tr> <th id="time">13:00-14:00</th> <td/> <td/> <td id="tcr"><CalElement cn={"tcrLabel"} txt={"Talk Club"}/></td> <td/> <td/> <td id="ds"><CalElement cn={"dsLabel"} txt={"Drop In"}/></td> <td id="asg"><CalElement cn={"asgLabel"} txt={"Autism"}/></td> </tr>
 
         <tr> <th id="time">14:00-15:00</th> <td/> <td id="cc"><CalElement cn={"ccLabel"} txt={"Cooking"}/></td> <td/> <td id="gs"><CalElement cn={"gsLabel"} txt={"Gardening"}/></td> <td/> <td id="tcr"><CalElement cn={"tcrLabel"} txt={"Talk Club"}/></td> <td/> </tr>
 
