@@ -79,11 +79,12 @@ class RegisterForm extends Component {
 function LoginButton() {
   return (
     <div>
-
       <label className="switch">
         <input type="checkbox" id="logRegToggle"/>
         <span className="slider round"/>
       </label>
+      <br/>
+      <br/>
     </div>
   );
 }

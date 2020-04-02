@@ -65,8 +65,9 @@ class RegisterForm extends Component {
           <input type="text" name="firstName" className="Input-box" placeholder="First Name" value={this.state.firstName} onChange={this.handleChange}/> <br/> <br/>
           <input type="text" name="lastName" className="Input-box" placeholder="Last Name" value={this.state.lastName} onChange={this.handleChange}/> <br/> <br/>
           <input type="text" name="username" className="Input-box" placeholder="Bath username" value={this.state.username} onChange={this.handleChange}/> <br/> <br/>
-          <div>
-            Preferred Gender of Counsellor:
+          <p id="counsellor-title"><b>Counsellor Preferences</b></p>
+          <div className="Option-div">
+            <p id="option">Gender:</p>
             <select id="gender">
               <option value="0">Choose option</option>
               <option value="1">Male</option>
@@ -75,8 +76,8 @@ class RegisterForm extends Component {
               <option value="4">No preference</option>
             </select>
           </div>
-          <div>
-            Preferred Age of Counsellor:
+          <div className="Option-div">
+          <p id="option">Age:</p>
             <select id="age">
               <option value="0">Choose option</option>
               <option value="1">18-29</option>
@@ -86,8 +87,8 @@ class RegisterForm extends Component {
               <option value="5">No preference</option>
             </select>
           </div>
-          <div>
-            Preferred Ethnicity of Counsellor:
+          <div className="Option-div">
+          <p id="option">Ethnicity:</p>
             <select id="ethnicity">
               <option value="0">Choose option</option>
               <option value="1">White British</option>
@@ -98,8 +99,12 @@ class RegisterForm extends Component {
             </select>
           </div>
           <br/>
+          <input type="text" name="subject" className="Input-box" placeholder="Subject of discussion" value={this.state.subject} onChange={this.handleChange}/> <br/> <br/>
+          <br/>
           Slide for recurring booking
           <LoginButton/>
+          <br/>
+          <br/>
           <button type="submit" value="Submit" className="Login-button">Book</button> <br/> <br/>
           <button className="Login-button"><a className="backLink" href="/">Go Back</a></button>
         </form>
