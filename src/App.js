@@ -10,6 +10,7 @@ import UoBathLogo from './BathLogo.png'
 import {Book} from "./Book";
 import {MyBookings} from './MyBookings'
 import {ViewActivity} from './ViewActivity';
+import {BookForCounselling} from './bookForCounselling'
 
 
 function App() {
@@ -41,6 +42,10 @@ function App() {
 
               <Route path="/book">
                 <Book />
+              </Route>
+
+              <Route path="/BookForCounselling">
+                <BookForCounselling />
               </Route>
 
               <Route path="/myActivities">
@@ -159,9 +164,12 @@ function ActivityButtons(){
 }
 
 function CalElement(props) {
-  return (
-    <div><label className={props.cn}><a className="calLink" href="/book">{props.txt}</a></label></div>
-  )
+  let counselling = props.txt;
+  if (counselling==="Counselling"){
+    return ( <div><label className={props.cn}><a className="calLink" href="/BookForCounselling">{props.txt}</a></label></div> )
+  }else {
+    return ( <div><label className={props.cn}><a className="calLink" href="/book">{props.txt}</a></label></div> )
+  }
 }
 
 function Calendar() {

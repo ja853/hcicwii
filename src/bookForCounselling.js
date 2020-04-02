@@ -3,7 +3,7 @@ import React, {Component} from "react";
 // import './book.css';
 import './slider.css';
 
-export function Book() {
+export function BookForCounselling() {
   return(
     <div className="App">
       <div className="second-title">
@@ -65,6 +65,39 @@ class RegisterForm extends Component {
           <input type="text" name="firstName" className="Input-box" placeholder="First Name" value={this.state.firstName} onChange={this.handleChange}/> <br/> <br/>
           <input type="text" name="lastName" className="Input-box" placeholder="Last Name" value={this.state.lastName} onChange={this.handleChange}/> <br/> <br/>
           <input type="text" name="username" className="Input-box" placeholder="Bath username" value={this.state.username} onChange={this.handleChange}/> <br/> <br/>
+          <div>
+            Preferred Gender of Counsellor:
+            <select id="gender">
+              <option value="0">Choose option</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Non-Binary</option>
+              <option value="4">No preference</option>
+            </select>
+          </div>
+          <div>
+            Preferred Age of Counsellor:
+            <select id="age">
+              <option value="0">Choose option</option>
+              <option value="1">18-29</option>
+              <option value="2">30-39</option>
+              <option value="3">40-49</option>
+              <option value="4">50+</option>
+              <option value="5">No preference</option>
+            </select>
+          </div>
+          <div>
+            Preferred Ethnicity of Counsellor:
+            <select id="ethnicity">
+              <option value="0">Choose option</option>
+              <option value="1">White British</option>
+              <option value="2">Asian</option>
+              <option value="3">Black</option>
+              <option value="4">Other</option>
+              <option value="5">No preference</option>
+            </select>
+          </div>
+          <br/>
           Slide for recurring booking
           <LoginButton/>
           <button type="submit" value="Submit" className="Login-button">Book</button> <br/> <br/>
